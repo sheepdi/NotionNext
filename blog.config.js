@@ -5,7 +5,7 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from https://sun-weight-e75.notion.site/2b9d172ee145810c8479de06f08d9f04
    NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '2b9d172ee145810c8479de06f08d9f04,en:2b9d172ee1458165a422f2a933f828eb',
+    '2b9d172ee145810c8479de06f08d9f04,en:2b9d172ee145810c8479de06f08d9f04',
   THEME: process.env.NEXT_PUBLIC_THEME || 'fukasawa', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // e.g if leave this empty, current year will be used.
