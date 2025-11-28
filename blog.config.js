@@ -2,7 +2,7 @@
 
 const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://sun-weight-e75.notion.site/api/v3', // API默认请求地址,可以配置成自己的地址例如：https://[xxxxx].notion.site/api/v3
-  // Important page_id！！！Duplicate Template from  https://sun-weight-e75.notion.site/2b9d172ee1458165a422f2a933f828eb?v=2b9d172ee14581398e58000cba975cd4&source=copy_link
+  // Important page_id！！！Duplicate Template from https://sun-weight-e75.notion.site/2b9d172ee1458165a422f2a933f828eb?v=2b9d172ee14581398e58000cba975cd4&source=copy_link
     process.env.NOTION_PAGE_ID ||
     '2b9d172ee1458165a422f2a933f828eb,en:2b9d172ee1458165a422f2a933f828eb',
   THEME: process.env.NEXT_PUBLIC_THEME || 'matery', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
