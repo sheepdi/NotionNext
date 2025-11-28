@@ -2,7 +2,7 @@
 
 const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://sun-weight-e75.notion.site/api/v3', // API默认请求地址,可以配置成自己的地址例如：https://[xxxxx].notion.site/api/v3
-  // Important page_id！！！Duplicate Template from https://sun-weight-e75.notion.site/2b9d172ee145810c8479de06f08d9f04
+  // Important page_id！！！Duplicate Template from https://sun-weight-e75.notion.site/2b9d172ee145810c8479de06f08d9f04 
    NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
     '2b9d172ee145810c8479de06f08d9f04,en:2b9d172ee145810c8479de06f08d9f04',
